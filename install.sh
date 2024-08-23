@@ -160,7 +160,7 @@ clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
 clear
-izinsc="https://raw.githubusercontent.com/alfinadia98/izin/main/ip"
+izinsc="https://raw.githubusercontent.com/arivpnstores/izin/main/ip"
 rm -f /usr/bin/user
 username=$(curl ${izinsc} | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
@@ -952,7 +952,8 @@ function menu(){
 clear
 #print_install "Memasang Menu Packet"
 # Unduh file dari tautan pertama menggunakan wget
-wget https://raw.githubusercontent.com/alfinadia98/f4/main/Cdy/menu.zip -O menu.zip >/dev/null 2>&1
+#https://raw.githubusercontent.com/arivpnstores/A4N-STORE/main/Cdy/menu.zip
+wget https://raw.githubusercontent.com/arivpnstores/A4N-STORE/main/Cdy/menu.zip -O menu.zip >/dev/null 2>&1
 wget https://raw.githubusercontent.com/arivpnstores/v4/main/enc >/dev/null 2>&1
 7z x -pHeyHeyMauDecryptYaAwokawokARISTORE menu.zip
 chmod +x menu/*

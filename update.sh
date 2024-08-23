@@ -45,7 +45,7 @@ fun_bar() {
 # Function to download and extract the update
 res1() {
 # Unduh file dari tautan pertama menggunakan wget
-wget https://raw.githubusercontent.com/alfinadia98/f4/main/Cdy/menu.zip -O menu.zip >/dev/null 2>&1
+wget https://raw.githubusercontent.com/arivpnstores/A4N-STORE/main/Cdy/menu.zip -O menu.zip >/dev/null 2>&1
 wget https://raw.githubusercontent.com/arivpnstores/v4/main/enc
 7z x -pHeyHeyMauDecryptYaAwokawokARISTORE menu.zip
 chmod +x menu/*
