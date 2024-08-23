@@ -1,3 +1,0 @@
-#!/bin/bash
-clear
-figlet "Script By A4N STORE" | lolcat
